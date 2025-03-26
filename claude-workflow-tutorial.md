@@ -5,62 +5,101 @@
 1. [Einleitung](#einleitung)
 2. [Projekt-Start](#projekt-start)
 3. [Gemeinsames Arbeiten](#gemeinsames-arbeiten)
-4. [Technische Details](#technische-details)
+4. [Technische Aspekte](#technische-aspekte)
 5. [Dokumentation und Zusammenarbeit](#dokumentation-und-zusammenarbeit)
 
 ## Einleitung
 
-Claude ist mehr als nur ein Werkzeug zur Code-Generierung - er ist ein vollwertiger Projektpartner, der dich in allen Phasen deiner Arbeit unterstützt. Von der ersten Ideenfindung bis zur finalen Dokumentation arbeitet Claude mit dir zusammen und bringt seine Expertise ein.
+Claude ist dein Partner für jede Art von Projekt - von der Geschäftsidee bis zum technischen System, vom Forschungsprojekt bis zur kreativen Arbeit. Er unterstützt dich in allen Phasen:
+- Als Sparringspartner beim Brainstorming
+- Als Analyst bei der Bewertung von Optionen
+- Als Organisator bei der Strukturierung
+- Als Experte bei der Umsetzung
+- Als Dokumentar bei der Aufbereitung
 
 ## Projekt-Start
 
-1. **Projekt-Verzeichnis einrichten**
-   - Lege eine klare Struktur fest
-   - Definiere Projektziele und Anforderungen
+1. **Vision und Ziele definieren**
+   - Was soll erreicht werden?
+   - Welche Rahmenbedingungen gibt es?
+   - Welche Ressourcen stehen zur Verfügung?
 
-2. **Projekt in Claude erstellen**
-   - Wähle aussagekräftigen Namen
-   - Konfiguriere Projekteinstellungen
+2. **Projekt-Struktur aufbauen**
+   - Projektordner anlegen (lokal oder cloud-basiert)
+   - Meilensteine definieren
+   - Arbeitspakete identifizieren
 
 3. **Kontext aufbauen**
-   - Lade wichtige Dokumente in den Projektspeicher
-   - Teile Hintergrundwissen und Anforderungen
+   - Relevante Dokumente sammeln
+   - Hintergrundwissen teilen
+   - Anforderungen spezifizieren
 
 ## Gemeinsames Arbeiten
 
 ### Brainstorming & Konzeption
-- Ideen gemeinsam entwickeln
-- Verschiedene Ansätze diskutieren
-- Vor- und Nachteile abwägen
+- Ideen frei entwickeln
+- Verschiedene Perspektiven einnehmen
+- Kreative Lösungen finden
+- Konzepte visualisieren
 
 ### Recherche & Analyse
-- Informationen sammeln
-- Technologien evaluieren
-- Best Practices identifizieren
+- Informationen systematisch sammeln
+- Optionen vergleichen
+- Machbarkeit prüfen
+- Risiken identifizieren
 
 ### Entscheidungsfindung
-- Optionen systematisch bewerten
-- Risiken analysieren
-- Begründete Entscheidungen treffen
+- Disney-Methode anwenden:
+  1. Träumer: Was wäre ideal?
+  2. Realist: Was ist machbar?
+  3. Kritiker: Welche Probleme gibt es?
+- Entscheidungsmatrix erstellen
+- Vor- und Nachteile abwägen
 
-## Technische Details
+### Umsetzung
+- Schrittweise vorgehen
+- Regelmäßig überprüfen
+- Flexibel anpassen
+- Qualität sichern
 
-### MCP-Server Konfiguration
-Die detaillierte Anleitung zur Einrichtung und Konfiguration der MCP-Server findest du in der [MCP Server Setup](mcp-server-setup.md) Dokumentation.
+## Technische Aspekte
 
-### Wichtige Hinweise zur Konfiguration
-- Stelle sicher, dass alle benötigten Server aktiviert sind
-- Überprüfe die Zugriffsrechte
-- Teste die Verbindungen
+### MCP-Server Funktionen
+Die [MCP Server](mcp-server-setup.md) erweitern die Möglichkeiten der Zusammenarbeit:
+- Dateizugriff für gemeinsames Arbeiten an Dokumenten
+- Automatisierung wiederkehrender Aufgaben
+- Integration externer Tools und Dienste
+- Versionskontrolle für alle Projektartefakte
+
+### Praktische Anwendungen
+- Dokumentenmanagement
+- Recherche und Informationssammlung
+- Prozessautomatisierung
+- Qualitätssicherung
+- Versionierung und Backup
 
 ## Dokumentation und Zusammenarbeit
 
-### Hilfreiche Befehle
-- `Zusammenfassung der letzten Session`
-- `Projekt-Status anzeigen`
-- `Kontext wiederherstellen`
+### Effektive Kommunikation
+- Klare Zielformulierung
+- Regelmäßiges Feedback
+- Dokumentation von Entscheidungen
+- Nachvollziehbare Begründungen
+
+### Hilfreiche Prompts
+- "Fasse unseren aktuellen Stand zusammen"
+- "Welche offenen Punkte haben wir noch?"
+- "Bewerte diese Option nach unseren Kriterien"
+- "Dokumentiere diese Entscheidung mit Begründung"
+
+### Best Practices
+- Regelmäßige Zusammenfassungen erstellen
+- Entscheidungen dokumentieren
+- Fortschritt tracken
+- Wissen systematisch aufbauen
 
 ### Kommunikationsstil
 - Natürliche Konversation auf Deutsch
-- Code-Kommentare auf Englisch
+- Fachbegriffe wenn nötig auf Englisch
 - Klare und präzise Anweisungen
+- Proaktives Feedback
