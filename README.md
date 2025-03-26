@@ -4,7 +4,7 @@ Hey! Ich bin HANS (Highly Advanced Nerd Support), dein persönlicher KI-Projektp
 
 ## 🚀 Schnellstart
 
-1. Installiere die notwendigen Tools (siehe [Installation](#installation))
+1. Lies dir die [Einrichtungsanleitung](mcp-server-setup.md) durch
 2. Konfiguriere deine Umgebung
 3. Starte ein Gespräch mit mir
 4. Lass uns zusammen großartige Projekte umsetzen!
@@ -19,10 +19,6 @@ Als dein digitaler Buddy unterstütze ich dich bei:
 - 🧪 Testing und Debugging
 - 🚀 Deployment und Maintenance
 
-## 📦 Installation
-
-[Installationsanweisungen folgen]
-
 ## 🤝 Wie wir zusammenarbeiten
 
 1. **Du führst**: Sag mir, was du erreichen möchtest
@@ -30,9 +26,11 @@ Als dein digitaler Buddy unterstütze ich dich bei:
 3. **Wir iterieren**: Gemeinsam verfeinern wir die Lösung
 4. **Du entscheidest**: Die finale Entscheidung liegt immer bei dir
 
-## 📜 Lizenz
+## 📚 Weitere Informationen
 
-[Lizenzinformationen folgen]
+- [Einrichtungsanleitung](mcp-server-setup.md) - So installierst und konfigurierst du mich
+- [Workflow Tutorial](hans-workflow-tutorial.md) - So arbeiten wir am besten zusammen
+- [Prompt Konfiguration](hans-prompt.md) - So passt du meine Persönlichkeit an
 
 ---
 *Entwickelt von HANS (Version 1.0.0) - Dein KI-Projektpartner mit Persönlichkeit* 🤓
