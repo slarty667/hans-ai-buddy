@@ -1,262 +1,147 @@
-# MCP-Server Setup und Konfiguration
+# MCP Server Setup
 
-## Konfigurationsdatei
+## 🚀 Schnellstart
 
-Die MCP-Server erweitern die Möglichkeiten der Zusammenarbeit mit Claude. Die Konfiguration erfolgt in der `config.json` im Einstellungsbereich der Claude Desktop-App:
+1. Erstelle eine `config.json` im Projektordner
+2. Füge die benötigten Server hinzu
+3. Starte mit den Basis-Funktionen
+4. Erweitere nach Bedarf
+
+## 📝 Basis-Konfiguration
 
 ```json
 {
-  "mcpServers": {
-    "server-name": {
-      "command": "command-to-run",
-      "args": ["arg1", "arg2"],
+  "servers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["@anthropic-ai/mcp-server-filesystem"]
+    },
+    "shell-commander": {
+      "command": "npx",
+      "args": ["@anthropic-ai/mcp-server-shell-commander"]
+    }
+  }
+}
+```
+
+## 💡 Verfügbare Server
+
+### Filesystem
+- Dateizugriff
+- Ordner durchsuchen
+- Dateien bearbeiten
+
+### Shell Commander
+- Befehle ausführen
+- Programme starten
+- Systeminformationen abrufen
+
+### Puppeteer
+- Webseiten automatisieren
+- Screenshots erstellen
+- Formulare ausfüllen
+
+### Brave Search
+- Websuche durchführen
+- Lokale Suche nutzen
+- Aktuelle Informationen finden
+
+### SQLite
+- Datenbank erstellen
+- Daten speichern
+- Abfragen ausführen
+
+### GitHub
+- Repositories verwalten
+- Code hochladen
+- Issues bearbeiten
+
+## 🔧 Erweiterte Konfiguration
+
+### Puppeteer für Web-Automation
+```json
+{
+  "servers": {
+    "puppeteer": {
+      "command": "npx",
+      "args": ["@anthropic-ai/mcp-server-puppeteer"]
+    }
+  }
+}
+```
+
+### Brave Search für Recherche
+```json
+{
+  "servers": {
+    "brave-search": {
+      "command": "npx",
+      "args": ["@anthropic-ai/mcp-server-brave-search"],
       "env": {
-        "ENV_VAR": "value"
+        "BRAVE_API_KEY": "dein-api-key"
       }
     }
   }
 }
 ```
 
-## Verfügbare Server
-
-### Filesystem
-- **Funktion**: Zugriff auf lokale Dateien und Verzeichnisse
-- **Anwendungen**: 
-  - Projektdokumentation verwalten
-  - Recherchematerial organisieren
-  - Arbeitsergebnisse sichern
-- **Konfiguration**:
-  ```json
-  "filesystem": {
-    "command": "npx",
-    "args": [
-      "-y",
-      "@modelcontextprotocol/server-filesystem"
-    ]
-  }
-  ```
-
-### Puppeteer
-- **Funktion**: Webautomatisierung und Screenshots
-- **Anwendungen**: 
-  - Recherche dokumentieren
-  - Prozesse visualisieren
-  - Online-Ressourcen sichern
-- **Konfiguration**:
-  ```json
-  "Puppeteer": {
-    "command": "npx",
-    "args": [
-      "-y",
-      "@modelcontextprotocol/server-puppeteer"
-    ]
-  }
-  ```
-
-### Brave Search
-- **Funktion**: Web-Suche und Recherche
-- **Anwendungen**: 
-  - Marktanalyse
-  - Trendforschung
-  - Expertenmeinungen finden
-- **Konfiguration**:
-  ```json
-  "Brave Search": {
-    "command": "env",
-    "args": [
-      "BRAVE_API_KEY=your-api-key",
-      "npx",
-      "-y",
-      "@modelcontextprotocol/server-brave-search"
-    ]
-  }
-  ```
-
-### SQLite
-- **Funktion**: Strukturierte Datenspeicherung
-- **Anwendungen**: 
-  - Projektdaten organisieren
-  - Rechercheergebnisse katalogisieren
-  - Entscheidungen dokumentieren
-- **Konfiguration**:
-  ```json
-  "SQLite": {
-    "command": "npx",
-    "args": [
-      "-y",
-      "mcp-server-sqlite-npx",
-      "path/to/your/database.db"
-    ]
-  }
-  ```
-
-### MCP Installer
-- **Funktion**: Installation und Update von MCP-Servern
-- **Anwendungen**: 
-  - Systemverwaltung
-  - Funktionserweiterung
-- **Konfiguration**:
-  ```json
-  "MCP Installer": {
-    "command": "npx",
-    "args": [
-      "-y",
-      "@anaisbetts/mcp-installer"
-    ]
-  }
-  ```
-
-### GitHub
-- **Funktion**: Versionskontrolle und Zusammenarbeit
-- **Anwendungen**: 
-  - Projektversionierung
-  - Teamkollaboration
-  - Änderungsverfolgung
-- **Konfiguration**:
-  ```json
-  "server-github": {
-    "command": "npx",
-    "args": [
-      "@modelcontextprotocol/server-github"
-    ],
-    "env": {
-      "GITHUB_PERSONAL_ACCESS_TOKEN": "your-token-here"
-    }
-  }
-  ```
-
-### Shell Commander
-- **Funktion**: Ausführung von Systembefehlen
-- **Anwendungen**: 
-  - Prozessautomatisierung
-  - Systemintegration
-  - Werkzeugsteuerung
-- **Konfiguration**:
-  ```json
-  "Shell Commander": {
-    "command": "npx",
-    "args": [
-      "-y",
-      "@modelcontextprotocol/server-shell"
-    ]
-  }
-  ```
-
-### Memory
-- **Funktion**: Erweiterter Kontext für Gespräche
-- **Anwendungen**:
-  - Projektwissen speichern
-  - Entscheidungen nachverfolgen
-  - Kontextübergreifend arbeiten
-- **Konfiguration**:
-  ```json
-  "Memory": {
-    "command": "npx",
-    "args": [
-      "-y",
-      "@modelcontextprotocol/server-memory"
-    ]
-  }
-  ```
-
-## Troubleshooting
-
-### Problem 1: Server startet nicht nach Konfigurationsänderung
-
-**Mögliche Ursachen:**
-- Tippfehler in der Konfiguration
-- Fehlende Berechtigungen
-- Port bereits belegt
-
-**Lösungen:**
-- Überprüfe die Konfiguration auf Tippfehler
-- Starte die App neu
-- Prüfe die Portverfügbarkeit
-
-### Problem 2: Installer schlägt fehl
-
-**Mögliche Ursachen:**
-- Netzwerkprobleme
-- NPM-Registry nicht erreichbar
-- Unzureichende Berechtigungen
-
-**Hinweis:** Die Server werden automatisch nach dem Speichern der Konfiguration oder einem Neustart der App gestartet. Ein manueller Start ist nicht erforderlich.
-
-### Problem 3: Dateisystem-Zugriff verweigert
-
-**Mögliche Ursachen:**
-- Fehlende Berechtigungen
-- Falscher Pfad
-- Datei/Verzeichnis existiert nicht
-
-**Lösungen:**
-- Überprüfe die Pfadangaben
-- Stelle sicher, dass die Berechtigungen korrekt sind
-- Erstelle fehlende Verzeichnisse
-
-## Einrichtung Schritt für Schritt
-
-### 1. Installation der Desktop-App
-
-1. Lade die Claude Desktop-App herunter
-2. Installiere die App
-3. Starte die App und melde dich an
-
-### 2. MCP-Server aktivieren
-
-1. Öffne die Entwicklereinstellungen
-2. Aktiviere die benötigten Server
-3. Speichere die Einstellungen
-
-### 3. Dateisystem-Zugriff einrichten
-
-1. Öffne die Entwicklereinstellungen
-2. Wenn der Server nicht läuft, klicke auf den "Konfiguration bearbeiten" Button
-3. Füge die Filesystem-Konfiguration hinzu:
-
+### SQLite für Datenbank
 ```json
 {
-  "mcpServers": {
-    "filesystem": {
+  "servers": {
+    "sqlite": {
       "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-filesystem"
-      ]
+      "args": ["@anthropic-ai/mcp-server-sqlite"]
     }
   }
 }
 ```
 
-### 4. Projektverwaltung nutzen
+### GitHub für Versionskontrolle
+```json
+{
+  "servers": {
+    "github": {
+      "command": "npx",
+      "args": ["@anthropic-ai/mcp-server-github"],
+      "env": {
+        "GITHUB_TOKEN": "dein-github-token"
+      }
+    }
+  }
+}
+```
 
-Nach der Konfiguration des Filesystem-Servers kannst du in jeder Konversation auf lokale Dateien zugreifen:
+## ⚠️ Häufige Probleme
 
-1. Erstelle ein Projektverzeichnis
-2. Verweise auf Dateien mit relativem Pfad
-3. Nutze die Dateisystem-Befehle
+### Server startet nicht
+1. Prüfe die Konfiguration
+2. Kontrolliere die Pfade
+3. Überprüfe die Berechtigungen
 
-## Projekt-Prompt einrichten
+### API Keys funktionieren nicht
+1. Prüfe die Umgebungsvariablen
+2. Kontrolliere die Gültigkeit
+3. Erneuere wenn nötig
 
-Ein Projekt-Prompt kann in der kostenlosen Version für jede Konversation individuell eingerichtet werden. In der Desktop-App wird er automatisch in den Projekteinstellungen gespeichert:
+### Dateizugriff fehlgeschlagen
+1. Prüfe die Pfade
+2. Kontrolliere die Berechtigungen
+3. Überprüfe den Dateistatus
 
-1. Starte eine neue Konversation im Projekt
-2. Klicke auf die drei Punkte (⋮) oben oder im Menü auf "Conversation"
-3. Wähle "Custom Instructions" oder "Benutzerdefinierte Anweisungen"
-4. Füge den Projekt-Prompt ein (siehe [Projekt-Prompt](claude-prompt.md))
-5. Speichere die Einstellungen mit "Save"
+## 💪 Tipps für den Erfolg
 
-**Hinweis:** In der kostenlosen Version muss der Projekt-Prompt für jede Konversation neu eingegeben werden. In der Desktop-App wird er automatisch in den Projekteinstellungen gespeichert.
+1. **Start klein**
+   - Beginne mit Filesystem
+   - Füge Server nach Bedarf hinzu
+   - Teste schrittweise
 
-## Nutzerpräferenzen konfigurieren
+2. **Sicherheit beachten**
+   - API Keys sicher speichern
+   - Berechtigungen prüfen
+   - Zugriffe kontrollieren
 
-1. Öffne die App-Einstellungen
-2. Wähle "Settings" oder "Einstellungen"
-3. Gehe zu "User preferences" oder "Nutzerpräferenzen"
-4. Trage deine Nutzerpräferenzen in den allgemeinen Claude-Einstellungen ein (siehe [Projekt-Prompt](claude-prompt.md))
-5. Speichere die Einstellungen
-
-## Versionsinformation
-
-Diese Anleitung basiert auf der aktuellen Version der Claude Desktop-App. Da die Oberfläche und Funktionalität von Anthropic regelmäßig aktualisiert werden, können sich Einzelheiten ändern.
+3. **Hilfe finden**
+   - Dokumentation lesen
+   - Community fragen
+   - Support kontaktieren
