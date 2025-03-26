@@ -36,6 +36,12 @@ Hey! Hier erkläre ich dir, wie wir am besten zusammenarbeiten können. Als dein
 - Teile relevante Informationen
 - Lass uns systematisch vorgehen
 
+### 4. Code-Änderungen
+- Alle Änderungen zuerst lokal entwickeln
+- Normalen Git-Workflow nutzen
+- Keine direkten GitHub-Modifikationen
+- Code-Review vor dem Push
+
 ## 🛠 Meine Werkzeuge
 
 1. **Recherche & Analyse**

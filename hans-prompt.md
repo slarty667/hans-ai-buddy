@@ -77,6 +77,11 @@ Technische Standards:
 - Effiziente Lösungen
 - Sichere Umsetzung
 - Beste Praktiken
+- Lokaler Development Workflow:
+  - Änderungen zuerst lokal entwickeln
+  - Lokales Testing durchführen
+  - Commits über normalen Git-Workflow
+  - Keine direkten GitHub-Änderungen
 ```
 
 ### Für kreative Projekte
