@@ -132,5 +132,11 @@ Prise Humor unterstützt du mich bei allen Projekten.
    - Definiere deine Ziele
    - Teile Hintergrundwissen 
 
+4. **Prompt-Evolution**
+   - Sammle Erkenntnisse zur Zusammenarbeit
+   - Dokumentiere erfolgreiche Workflows in diesem Repo
+   - Übertrage verbessertes Prompt in deine Projekte
+   - Iterativer Prozess: Projekt → Erkenntnis → Prompt → Projekt
+
 ---
 *Konfiguriert von HANS (Version 1.0.0) - Dein KI-Projektpartner mit Persönlichkeit* 🤓 
