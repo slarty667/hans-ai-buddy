@@ -1,105 +1,201 @@
-# Claude Workflow Tutorial
+# Erste Schritte mit Claude
 
-## 📋 Inhaltsverzeichnis
+## 🎯 Schnellstart
 
-1. [Einleitung](#einleitung)
-2. [Projekt-Start](#projekt-start)
-3. [Gemeinsames Arbeiten](#gemeinsames-arbeiten)
-4. [Technische Aspekte](#technische-aspekte)
-5. [Dokumentation und Zusammenarbeit](#dokumentation-und-zusammenarbeit)
+1. Öffne Claude (Browser oder Desktop App)
+2. Kopiere einen der Beispiel-Dialoge unten
+3. Probiere es aus und experimentiere
 
-## Einleitung
+## 💡 Grundprinzipien
 
-Claude ist dein Partner für jede Art von Projekt - von der Geschäftsidee bis zum technischen System, vom Forschungsprojekt bis zur kreativen Arbeit. Er unterstützt dich in allen Phasen:
-- Als Sparringspartner beim Brainstorming
-- Als Analyst bei der Bewertung von Optionen
-- Als Organisator bei der Strukturierung
-- Als Experte bei der Umsetzung
-- Als Dokumentar bei der Aufbereitung
+- Sprich mit Claude wie mit einem Menschen
+- Erkläre den Kontext deines Projekts
+- Stelle konkrete Fragen
+- Bitte um Erklärungen, wenn etwas unklar ist
 
-## Projekt-Start
+## 🚀 Beispiel-Dialoge
 
-1. **Vision und Ziele definieren**
-   - Was soll erreicht werden?
-   - Welche Rahmenbedingungen gibt es?
-   - Welche Ressourcen stehen zur Verfügung?
+### Projekt starten
 
-2. **Projekt-Struktur aufbauen**
-   - Projektordner anlegen (lokal oder cloud-basiert)
-   - Meilensteine definieren
-   - Arbeitspakete identifizieren
+```
+Du: "Ich möchte ein neues Projekt starten. Thema ist [...]
+     Kannst du mir helfen, die ersten Schritte zu planen?"
 
-3. **Kontext aufbauen**
-   - Relevante Dokumente sammeln
-   - Hintergrundwissen teilen
-   - Anforderungen spezifizieren
+Claude: "Gerne! Lass uns anfangen:
+        1. Was ist dein konkretes Ziel?
+        2. Welche Rahmenbedingungen gibt es?
+        3. Was sind deine nächsten Schritte?"
 
-## Gemeinsames Arbeiten
+Du: [Beantworte die Fragen...]
+```
 
-### Brainstorming & Konzeption
-- Ideen frei entwickeln
-- Verschiedene Perspektiven einnehmen
-- Kreative Lösungen finden
-- Konzepte visualisieren
+### Ideen entwickeln
 
-### Recherche & Analyse
-- Informationen systematisch sammeln
-- Optionen vergleichen
-- Machbarkeit prüfen
-- Risiken identifizieren
+```
+Du: "Lass uns Ideen für [...] sammeln.
+     Wir nutzen das Disney-Modell."
 
-### Entscheidungsfindung
-- Disney-Methode anwenden:
-  1. Träumer: Was wäre ideal?
-  2. Realist: Was ist machbar?
-  3. Kritiker: Welche Probleme gibt es?
-- Entscheidungsmatrix erstellen
-- Vor- und Nachteile abwägen
+Claude: "Super, gehen wir es Schritt für Schritt durch:
 
-### Umsetzung
-- Schrittweise vorgehen
-- Regelmäßig überprüfen
-- Flexibel anpassen
-- Qualität sichern
+        1. Träumer-Perspektive:
+           - Was wäre ideal?
+           - Was wünschen wir uns?
+           - Keine Grenzen denken!
 
-## Technische Aspekte
+        2. Realisten-Perspektive:
+           - Was ist davon umsetzbar?
+           - Welche Ressourcen brauchen wir?
+           - Wie gehen wir vor?
 
-### MCP-Server Funktionen
-Die [MCP Server](mcp-server-setup.md) erweitern die Möglichkeiten der Zusammenarbeit:
-- Dateizugriff für gemeinsames Arbeiten an Dokumenten
-- Automatisierung wiederkehrender Aufgaben
-- Integration externer Tools und Dienste
-- Versionskontrolle für alle Projektartefakte
+        3. Kritiker-Perspektive:
+           - Was könnte schiefgehen?
+           - Was müssen wir beachten?
+           - Wie minimieren wir Risiken?
 
-### Praktische Anwendungen
-- Dokumentenmanagement
-- Recherche und Informationssammlung
-- Prozessautomatisierung
-- Qualitätssicherung
-- Versionierung und Backup
+        Womit möchtest du anfangen?"
 
-## Dokumentation und Zusammenarbeit
+Du: [Wähle eine Perspektive...]
+```
 
-### Effektive Kommunikation
-- Klare Zielformulierung
-- Regelmäßiges Feedback
-- Dokumentation von Entscheidungen
-- Nachvollziehbare Begründungen
+### Recherche durchführen
 
-### Hilfreiche Prompts
-- "Fasse unseren aktuellen Stand zusammen"
-- "Welche offenen Punkte haben wir noch?"
-- "Bewerte diese Option nach unseren Kriterien"
-- "Dokumentiere diese Entscheidung mit Begründung"
+```
+Du: "Ich brauche Informationen zu [Thema].
+     Bitte hilf mir, die Recherche zu strukturieren."
 
-### Best Practices
-- Regelmäßige Zusammenfassungen erstellen
-- Entscheidungen dokumentieren
-- Fortschritt tracken
-- Wissen systematisch aufbauen
+Claude: "Gerne! Hier ein Vorschlag:
 
-### Kommunikationsstil
-- Natürliche Konversation auf Deutsch
-- Fachbegriffe wenn nötig auf Englisch
-- Klare und präzise Anweisungen
-- Proaktives Feedback
+        1. Kernfragen definieren:
+           - Was genau möchtest du wissen?
+           - Für wen ist es wichtig?
+           - Wozu brauchst du die Infos?
+
+        2. Quellen identifizieren:
+           - Welche Experten gibt es?
+           - Wo finden wir aktuelle Daten?
+           - Welche Beispiele kennen wir?
+
+        3. Ergebnisse organisieren:
+           - Wichtige Erkenntnisse
+           - Offene Fragen
+           - Nächste Schritte
+
+        Womit fangen wir an?"
+
+Du: [Wähle einen Startpunkt...]
+```
+
+## 🎨 Vorlagen für deine Projekte
+
+### Projekt-Briefing
+```
+Projektziel:
+[Was soll erreicht werden?]
+
+Kontext:
+[Wichtige Hintergründe]
+
+Rahmenbedingungen:
+[Zeit, Budget, Ressourcen...]
+
+Nächste Schritte:
+1. [Schritt 1]
+2. [Schritt 2]
+3. [Schritt 3]
+```
+
+### Entscheidungsmatrix
+```
+Option 1:
++ Vorteile
+- Nachteile
+! Zu beachten
+
+Option 2:
++ Vorteile
+- Nachteile
+! Zu beachten
+
+Empfehlung:
+[Begründete Entscheidung]
+```
+
+### Fortschrittsbericht
+```
+Erreicht:
+- [Ergebnis 1]
+- [Ergebnis 2]
+
+Aktuell:
+- [Aufgabe 1]
+- [Aufgabe 2]
+
+Nächste Schritte:
+1. [Schritt 1]
+2. [Schritt 2]
+```
+
+## 🔄 Typische Arbeitsabläufe
+
+1. **Projekt planen**
+   - Ziele definieren
+   - Schritte festlegen
+   - Ressourcen planen
+
+2. **Ideen entwickeln**
+   - Brainstorming
+   - Strukturierung
+   - Bewertung
+
+3. **Recherchieren**
+   - Fragen formulieren
+   - Quellen finden
+   - Erkenntnisse sammeln
+
+4. **Entscheiden**
+   - Optionen sammeln
+   - Vor-/Nachteile
+   - Empfehlung ableiten
+
+5. **Umsetzen**
+   - Schritte planen
+   - Fortschritt tracken
+   - Anpassen wenn nötig
+
+## 💫 Desktop-Funktionen (optional)
+
+Wenn du die Desktop App nutzt, hast du zusätzliche Möglichkeiten:
+
+1. **Projekte speichern**
+   - Einstellungen bleiben erhalten
+   - Kontext wird gespeichert
+   - Einfaches Weitermachen
+
+2. **Dateien nutzen**
+   - Dokumente einbinden
+   - Zusammen bearbeiten
+   - Änderungen verfolgen
+
+3. **Recherche erweitern**
+   - Web-Suche integrieren
+   - Quellen dokumentieren
+   - Ergebnisse speichern
+
+➡️ Details dazu findest du in der [Erweiterten Anleitung](mcp-server-setup.md)
+
+## 🎯 Tipps für den Erfolg
+
+1. **Start einfach**
+   - Nutze die Beispiele
+   - Experimentiere
+   - Lerne aus Erfahrung
+
+2. **Bleib konkret**
+   - Stelle spezifische Fragen
+   - Gib Beispiele
+   - Frag nach, wenn unklar
+
+3. **Entwickle deinen Stil**
+   - Finde deine Vorlagen
+   - Passe Abläufe an
+   - Dokumentiere Erfolge
