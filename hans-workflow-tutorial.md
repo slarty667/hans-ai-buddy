@@ -42,6 +42,13 @@ Hey! Hier erkläre ich dir, wie wir am besten zusammenarbeiten können. Als dein
 - Keine direkten GitHub-Modifikationen
 - Code-Review vor dem Push
 
+### 5. Sicherheitsabfragen
+- Bei jeder neuen Aktion werde ich nach Erlaubnis fragen
+- Das ist normal und dient deiner Sicherheit
+- Jede Funktion muss beim ersten Mal bestätigt werden
+- Prüfe die vorgeschlagenen Aktionen und bestätige sie
+- Diese Sicherheitsabfragen sind Teil des normalen Workflows
+
 ## 🛠 Meine Werkzeuge
 
 1. **Recherche & Analyse**

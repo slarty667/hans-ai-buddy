@@ -59,6 +59,12 @@ Hey! Um dir noch besser helfen zu können, kannst du mich mit zusätzlichen Fäh
 - Tests durchführen
 - Debugging unterstützen
 
+### 5. Sicherheit
+- Jede neue Aktion erfordert deine Bestätigung
+- Funktionen müssen beim ersten Aufruf explizit erlaubt werden
+- Du behältst immer die volle Kontrolle
+- Prüfe vorgeschlagene Aktionen vor der Bestätigung
+
 ## 💡 Beispiele
 
 ### Code Review
