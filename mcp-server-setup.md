@@ -2,7 +2,7 @@
 
 ## Konfigurationsdatei
 
-Die MCP-Server werden in der `config.json` konfiguriert, die sich im Einstellungsbereich der Claude Desktop-App befindet. Die Grundstruktur der Datei sieht so aus:
+Die MCP-Server erweitern die Möglichkeiten der Zusammenarbeit mit Claude. Die Konfiguration erfolgt in der `config.json` im Einstellungsbereich der Claude Desktop-App:
 
 ```json
 {
@@ -22,7 +22,10 @@ Die MCP-Server werden in der `config.json` konfiguriert, die sich im Einstellung
 
 ### Filesystem
 - **Funktion**: Zugriff auf lokale Dateien und Verzeichnisse
-- **Typische Anwendungen**: Dateioperationen, Projektmanagement
+- **Anwendungen**: 
+  - Projektdokumentation verwalten
+  - Recherchematerial organisieren
+  - Arbeitsergebnisse sichern
 - **Konfiguration**:
   ```json
   "filesystem": {
@@ -36,7 +39,10 @@ Die MCP-Server werden in der `config.json` konfiguriert, die sich im Einstellung
 
 ### Puppeteer
 - **Funktion**: Webautomatisierung und Screenshots
-- **Typische Anwendungen**: UI-Tests, Web-Scraping
+- **Anwendungen**: 
+  - Recherche dokumentieren
+  - Prozesse visualisieren
+  - Online-Ressourcen sichern
 - **Konfiguration**:
   ```json
   "Puppeteer": {
@@ -50,7 +56,10 @@ Die MCP-Server werden in der `config.json` konfiguriert, die sich im Einstellung
 
 ### Brave Search
 - **Funktion**: Web-Suche und Recherche
-- **Typische Anwendungen**: Informationsbeschaffung
+- **Anwendungen**: 
+  - Marktanalyse
+  - Trendforschung
+  - Expertenmeinungen finden
 - **Konfiguration**:
   ```json
   "Brave Search": {
@@ -65,8 +74,11 @@ Die MCP-Server werden in der `config.json` konfiguriert, die sich im Einstellung
   ```
 
 ### SQLite
-- **Funktion**: Datenbankoperationen
-- **Typische Anwendungen**: Datenmanagement
+- **Funktion**: Strukturierte Datenspeicherung
+- **Anwendungen**: 
+  - Projektdaten organisieren
+  - Rechercheergebnisse katalogisieren
+  - Entscheidungen dokumentieren
 - **Konfiguration**:
   ```json
   "SQLite": {
@@ -81,7 +93,9 @@ Die MCP-Server werden in der `config.json` konfiguriert, die sich im Einstellung
 
 ### MCP Installer
 - **Funktion**: Installation und Update von MCP-Servern
-- **Typische Anwendungen**: Server-Management
+- **Anwendungen**: 
+  - Systemverwaltung
+  - Funktionserweiterung
 - **Konfiguration**:
   ```json
   "MCP Installer": {
@@ -94,8 +108,11 @@ Die MCP-Server werden in der `config.json` konfiguriert, die sich im Einstellung
   ```
 
 ### GitHub
-- **Funktion**: GitHub Repository Management
-- **Typische Anwendungen**: Versionskontrolle, Collaboration
+- **Funktion**: Versionskontrolle und Zusammenarbeit
+- **Anwendungen**: 
+  - Projektversionierung
+  - Teamkollaboration
+  - Änderungsverfolgung
 - **Konfiguration**:
   ```json
   "server-github": {
@@ -110,8 +127,11 @@ Die MCP-Server werden in der `config.json` konfiguriert, die sich im Einstellung
   ```
 
 ### Shell Commander
-- **Funktion**: Ausführung von Shell-Befehlen
-- **Typische Anwendungen**: Automatisierung, Systemkonfiguration
+- **Funktion**: Ausführung von Systembefehlen
+- **Anwendungen**: 
+  - Prozessautomatisierung
+  - Systemintegration
+  - Werkzeugsteuerung
 - **Konfiguration**:
   ```json
   "Shell Commander": {
@@ -124,7 +144,11 @@ Die MCP-Server werden in der `config.json` konfiguriert, die sich im Einstellung
   ```
 
 ### Memory
-- **Funktion**: Erweiterter Speicher für Konversationen
+- **Funktion**: Erweiterter Kontext für Gespräche
+- **Anwendungen**:
+  - Projektwissen speichern
+  - Entscheidungen nachverfolgen
+  - Kontextübergreifend arbeiten
 - **Konfiguration**:
   ```json
   "Memory": {
@@ -207,7 +231,7 @@ Die MCP-Server werden in der `config.json` konfiguriert, die sich im Einstellung
 
 ### 4. Projektverwaltung nutzen
 
-Nach der Konfiguration des Filesystem-Servers kannst du in jeder Konversation auf lokale Dateien verweisen:
+Nach der Konfiguration des Filesystem-Servers kannst du in jeder Konversation auf lokale Dateien zugreifen:
 
 1. Erstelle ein Projektverzeichnis
 2. Verweise auf Dateien mit relativem Pfad
