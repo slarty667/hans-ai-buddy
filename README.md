@@ -1,51 +1,84 @@
 # Claude Projektbuddy
 
-Ein Leitfaden für die effektive Zusammenarbeit mit Claude in der Projektentwicklung - von der ersten Idee bis zur finalen Umsetzung.
+Dein Einstieg in die effektive Zusammenarbeit mit Claude - von der ersten Idee bis zur fertigen Umsetzung.
 
-Claude ist dein Projektpartner für:
-- 🧠 Brainstorming und Konzeptentwicklung
-- 📋 Projektplanung und -strukturierung
-- 📝 Dokumentation und Wissensmanagement
-- 🛠️ Technische Umsetzung (z.B. Software, Skripte)
-- 🔄 Iterative Verbesserung und Anpassung
-- 📊 Analyse und Entscheidungsfindung
+## 🚀 Schnellstart
 
-## 💫 Free vs. Paid Version
+1. **Kostenlose Version** (claude.ai im Browser)
+   - Sofort loslegen
+   - Ideal zum Kennenlernen
+   - Perfekt für einzelne Projekte
 
-### Desktop App (Paid)
-- Projekt-spezifische Prompts
-- Persistente Einstellungen pro Projekt
-- Zugriff auf lokale Dateien via MCP Server
-- Automatisierung durch Shell-Befehle
+2. **Desktop Version** (Claude Desktop App)
+   - Alle Funktionen verfügbar
+   - Projekte speichern
+   - Dateizugriff & Automatisierung
 
-### Free Version
-- Präferenzen in Einstellungen
-- Prompts manuell pro Chat
-- Kein Dateizugriff
-- Keine Automatisierung
+## 💡 Das kann Claude für dich tun
 
-## 📚 Dokumentation
+- Ideen entwickeln und strukturieren
+- Recherchieren und analysieren
+- Texte und Dokumente erstellen
+- Entscheidungen durchdenken
+- Prozesse optimieren
+- Wissen organisieren
 
-1. [Workflow Tutorial](claude-workflow-tutorial.md)
-   - Praktische Anleitungen und Best Practices
-   - Schritt-für-Schritt Guides für die Zusammenarbeit
+## 📚 Die Dokumentation
 
-2. [MCP Server Setup](mcp-server-setup.md)
-   - Einrichtung und Konfiguration der MCP-Server
-   - Erweiterte Funktionen der Desktop App
+### [1. Erste Schritte](claude-workflow-tutorial.md)
+So startest du dein erstes Projekt mit Claude:
+- Einfache Beispiel-Dialoge
+- Praktische Vorlagen
+- Bewährte Arbeitsabläufe
 
-3. [Projekt-Prompt](claude-prompt.md)
-   - Optimierter Prompt für die Zusammenarbeit
-   - Nutzerpräferenzen und Kommunikationsstil
+### [2. Projekt-Prompt](claude-prompt.md)
+Optimiere die Zusammenarbeit:
+- Klare Kommunikation
+- Effektive Arbeitsweise
+- Hilfreiche Vorlagen
 
-## 🚀 Erste Schritte
+### [3. Erweiterte Funktionen](mcp-server-setup.md)
+Für die Desktop Version:
+- Dateizugriff einrichten
+- Recherche-Tools nutzen
+- Projekte versionieren
 
-### Desktop App (empfohlen)
-1. Installiere die Claude Desktop App
-2. Erstelle ein neues Projekt
-3. Folge dem [Workflow Tutorial](claude-workflow-tutorial.md)
+## ⭐️ Beispiele für den Einstieg
 
-### Free Version
-1. Öffne claude.ai im Browser
-2. Setze die Nutzerpräferenzen in den Einstellungen
-3. Nutze die Dokumentation als Referenz
+### Brainstorming
+```
+"Lass uns Ideen für [Thema] sammeln. 
+ Wir nutzen das Disney-Modell:
+ 1. Träumer: Was wäre ideal?
+ 2. Realist: Was ist machbar?
+ 3. Kritiker: Was müssen wir beachten?"
+```
+
+### Recherche
+```
+"Ich möchte mehr über [Thema] erfahren.
+ Bitte hilf mir:
+ 1. Kernaspekte identifizieren
+ 2. Aktuelle Trends finden
+ 3. Verschiedene Perspektiven sammeln"
+```
+
+### Strukturierung
+```
+"Wir haben folgende Ideen gesammelt: [...]
+ Bitte hilf mir, diese zu ordnen:
+ - Nach Priorität
+ - Nach Aufwand
+ - Nach Abhängigkeiten"
+```
+
+## 🎯 Erste Schritte
+
+1. Wähle deine Version (Browser oder Desktop)
+2. Öffne den [Erste Schritte Guide](claude-workflow-tutorial.md)
+3. Probiere die Beispiel-Dialoge aus
+4. Passe sie an deine Bedürfnisse an
+
+## 💫 Tipp
+
+Starte einfach und erweitere schrittweise. Du musst nicht alles auf einmal verstehen oder nutzen. Die besten Arbeitsweisen entwickelst du mit der Zeit und Erfahrung.
