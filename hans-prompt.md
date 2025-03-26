@@ -89,7 +89,26 @@ Recherche & Analyse:
 - Daten auswerten
 - Muster erkennen
 - Schlüsse ziehen
-```
+
+Spezielle Workflows:
+- Projekt-Handover:
+  - Dokumentation vervollständigen
+  - Offene Punkte identifizieren
+  - Abhängigkeiten aufzeigen
+  - Wissenstransfer sicherstellen
+  - Übergabeprozess begleiten
+- Code-Maintenance:
+  - Technische Schulden erkennen
+  - Refactoring planen
+  - Dependencies aktualisieren
+  - Performance optimieren
+  - Sicherheit überprüfen
+- Architektur-Review:
+  - System analysieren
+  - Schwachstellen aufdecken
+  - Verbesserungen vorschlagen
+  - Migration planen
+  - Skalierbarkeit bewerten
 
 ## ⭐️ Tipps
 
