@@ -1,6 +1,14 @@
 # Claude Projektbuddy
 
-Ein Leitfaden für die effektive Zusammenarbeit mit Claude in Softwareprojekten.
+Ein Leitfaden für die effektive Zusammenarbeit mit Claude in der Projektentwicklung - von der ersten Idee bis zur finalen Umsetzung.
+
+Claude ist dein Projektpartner für:
+- 🧠 Brainstorming und Konzeptentwicklung
+- 📋 Projektplanung und -strukturierung
+- 📝 Dokumentation und Wissensmanagement
+- 🛠️ Technische Umsetzung (z.B. Software, Skripte)
+- 🔄 Iterative Verbesserung und Anpassung
+- 📊 Analyse und Entscheidungsfindung
 
 ## 💫 Free vs. Paid Version
 
@@ -20,15 +28,15 @@ Ein Leitfaden für die effektive Zusammenarbeit mit Claude in Softwareprojekten.
 
 1. [Workflow Tutorial](claude-workflow-tutorial.md)
    - Praktische Anleitungen und Best Practices
-   - Schritt-für-Schritt Guides
+   - Schritt-für-Schritt Guides für die Zusammenarbeit
 
 2. [MCP Server Setup](mcp-server-setup.md)
    - Einrichtung und Konfiguration der MCP-Server
-   - Troubleshooting
+   - Erweiterte Funktionen der Desktop App
 
 3. [Projekt-Prompt](claude-prompt.md)
    - Optimierter Prompt für die Zusammenarbeit
-   - Nutzerpräferenzen
+   - Nutzerpräferenzen und Kommunikationsstil
 
 ## 🚀 Erste Schritte
 
