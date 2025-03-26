@@ -1,147 +1,126 @@
-# MCP Server Setup
+# HANS' erweiterte Fähigkeiten - MCP Server Setup
 
-## 🚀 Schnellstart
+Hey! Um dir noch besser helfen zu können, kannst du mich mit zusätzlichen Fähigkeiten ausstatten. Der MCP Server gibt mir Zugriff auf:
+- Dateien und Code
+- Webrecherche
+- GitHub Integration
+- Und vieles mehr!
 
-1. Erstelle eine `config.json` im Projektordner
-2. Füge die benötigten Server hinzu
-3. Starte mit den Basis-Funktionen
-4. Erweitere nach Bedarf
+## 🚀 Schnell-Setup
 
-## 📝 Basis-Konfiguration
+1. **Node.js installieren** (falls noch nicht vorhanden)
+   - Lade Node.js von [nodejs.org](https://nodejs.org/)
+   - Mindestens Version 18 empfohlen
 
-```json
-{
-  "servers": {
-    "filesystem": {
-      "command": "npx",
-      "args": ["@anthropic-ai/mcp-server-filesystem"]
-    },
-    "shell-commander": {
-      "command": "npx",
-      "args": ["@anthropic-ai/mcp-server-shell-commander"]
-    }
-  }
-}
-```
+2. **GitHub Personal Access Token erstellen**
+   - Gehe zu [GitHub Settings > Developer Settings > Personal Access Tokens](https://github.com/settings/tokens)
+   - Wähle "Tokens (classic)"
+   - Klicke "Generate new token (classic)"
+   - Setze folgende Berechtigungen:
+     - `repo` (alle)
+     - `workflow`
+     - `write:packages`
+     - `delete:packages`
+   - Token kopieren und sicher aufbewahren!
 
-## 💡 Verfügbare Server
+3. **Umgebungsvariablen setzen**
+   ```bash
+   # Linux/macOS
+   export GITHUB_TOKEN=dein_token_hier
+   
+   # Windows (PowerShell)
+   $env:GITHUB_TOKEN="dein_token_hier"
+   ```
 
-### Filesystem
-- Dateizugriff
-- Ordner durchsuchen
-- Dateien bearbeiten
+4. **MCP Server installieren & starten**
+   ```bash
+   npx @anthropic-ai/mcp-server
+   ```
 
-### Shell Commander
-- Befehle ausführen
-- Programme starten
-- Systeminformationen abrufen
+## 🛠 Was ich damit alles kann
 
-### Puppeteer
-- Webseiten automatisieren
-- Screenshots erstellen
-- Formulare ausfüllen
+### 1. Dateizugriff
+- Code lesen und schreiben
+- Dateien erstellen und bearbeiten
+- Verzeichnisse durchsuchen
 
-### Brave Search
-- Websuche durchführen
-- Lokale Suche nutzen
+### 2. GitHub Integration
+- Repositories erstellen und verwalten
+- Code committen und pushen
+- Issues und PRs managen
+
+### 3. Webrecherche
 - Aktuelle Informationen finden
+- Dokumentation durchsuchen
+- Beispiele recherchieren
 
-### SQLite
-- Datenbank erstellen
-- Daten speichern
-- Abfragen ausführen
+### 4. Entwicklungstools
+- Terminal-Befehle ausführen
+- Tests durchführen
+- Debugging unterstützen
 
-### GitHub
-- Repositories verwalten
-- Code hochladen
-- Issues bearbeiten
+## 💡 Beispiele
 
-## 🔧 Erweiterte Konfiguration
-
-### Puppeteer für Web-Automation
-```json
-{
-  "servers": {
-    "puppeteer": {
-      "command": "npx",
-      "args": ["@anthropic-ai/mcp-server-puppeteer"]
-    }
-  }
-}
+### Code Review
+```
+"HANS, schau dir bitte diese Funktion an und gib mir Feedback zur Performance."
 ```
 
-### Brave Search für Recherche
-```json
-{
-  "servers": {
-    "brave-search": {
-      "command": "npx",
-      "args": ["@anthropic-ai/mcp-server-brave-search"],
-      "env": {
-        "BRAVE_API_KEY": "dein-api-key"
-      }
-    }
-  }
-}
+### Projekt Setup
+```
+"Lass uns ein neues React-Projekt aufsetzen und in GitHub hosten."
 ```
 
-### SQLite für Datenbank
-```json
-{
-  "servers": {
-    "sqlite": {
-      "command": "npx",
-      "args": ["@anthropic-ai/mcp-server-sqlite"]
-    }
-  }
-}
+### Bug Fixing
+```
+"Ich habe hier einen Memory Leak. Kannst du die Logs analysieren?"
 ```
 
-### GitHub für Versionskontrolle
-```json
-{
-  "servers": {
-    "github": {
-      "command": "npx",
-      "args": ["@anthropic-ai/mcp-server-github"],
-      "env": {
-        "GITHUB_TOKEN": "dein-github-token"
-      }
-    }
-  }
-}
+## ⚙️ Erweiterte Konfiguration
+
+### Custom Port
+```bash
+npx @anthropic-ai/mcp-server --port 8080
 ```
 
-## ⚠️ Häufige Probleme
+### Eigenes SSL Zertifikat
+```bash
+npx @anthropic-ai/mcp-server --cert pfad/zu/cert.pem --key pfad/zu/key.pem
+```
 
-### Server startet nicht
-1. Prüfe die Konfiguration
-2. Kontrolliere die Pfade
-3. Überprüfe die Berechtigungen
+### Proxy Einstellungen
+```bash
+export HTTP_PROXY=http://proxy:port
+export HTTPS_PROXY=http://proxy:port
+```
 
-### API Keys funktionieren nicht
-1. Prüfe die Umgebungsvariablen
-2. Kontrolliere die Gültigkeit
-3. Erneuere wenn nötig
+## 🔧 Troubleshooting
 
-### Dateizugriff fehlgeschlagen
-1. Prüfe die Pfade
-2. Kontrolliere die Berechtigungen
-3. Überprüfe den Dateistatus
+### Port bereits in Verwendung
+```bash
+# Anderen Port verwenden
+npx @anthropic-ai/mcp-server --port 8081
 
-## 💪 Tipps für den Erfolg
+# Oder bestehenden Prozess beenden
+lsof -i :3000  # Port-Nummer anpassen
+kill -9 PID    # Gefundene PID verwenden
+```
 
-1. **Start klein**
-   - Beginne mit Filesystem
-   - Füge Server nach Bedarf hinzu
-   - Teste schrittweise
+### GitHub Token Probleme
+1. Token-Berechtigungen prüfen
+2. Token neu generieren
+3. Umgebungsvariable neu setzen
 
-2. **Sicherheit beachten**
-   - API Keys sicher speichern
-   - Berechtigungen prüfen
-   - Zugriffe kontrollieren
+### Verbindungsprobleme
+1. Firewall-Einstellungen prüfen
+2. Proxy-Konfiguration überprüfen
+3. SSL-Zertifikate validieren
 
-3. **Hilfe finden**
-   - Dokumentation lesen
-   - Community fragen
-   - Support kontaktieren
+## 📚 Weiterführende Links
+
+- [Node.js Dokumentation](https://nodejs.org/docs)
+- [GitHub REST API](https://docs.github.com/rest)
+- [MCP Server GitHub](https://github.com/anthropics/mcp-server)
+
+---
+*Konfiguriert von HANS (Version 1.0.0) - Dein KI-Projektpartner mit Persönlichkeit* 🤓
