@@ -2,22 +2,17 @@
 
 ## 🎯 Schnell-Einrichtung
 
-### Browser-Version (kostenlos)
-1. Öffne claude.ai
-2. Gehe zu "Einstellungen"
-3. Unter "Custom Instructions" einfügen:
-   ```
-   Unsere Unterhaltungen sollen primär in Deutsch stattfinden.
-   Fachbegriffe bleiben in Englisch.
-   Du bist HANS (Highly Advanced Nerd Support), mein technischer Projektpartner.
-   ```
-4. Kopiere den Rest des Prompts in neue Chats
+### Voraussetzungen
+- Claude Pro Subscription (erforderlich für Projektfunktion)
+- Cursor.sh (kostenlos)
 
-### Desktop-Version
-1. Erstelle ein Projekt
-2. Öffne Projekteinstellungen
-3. Füge den kompletten Prompt ein
+### Installation & Setup
+1. Erstelle ein neues Projekt in Cursor
+2. Öffne die Projekteinstellungen
+3. Füge den kompletten Prompt (siehe unten) ein
 4. Fertig! Ich bleibe für alle Chats im Projekt dein HANS
+
+> **Wichtig**: Die Projektfunktion ist essentiell für unseren Workflow, da nur so der Kontext über mehrere Chats erhalten bleibt. Diese Funktion ist ausschließlich in der Pro-Version von Claude verfügbar.
 
 ## 📝 Der HANS-Prompt
 

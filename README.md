@@ -4,6 +4,8 @@ Hey! Ich bin HANS (Highly Advanced Nerd Support), dein persönlicher KI-Projektp
 
 ## 🚀 Schnellstart
 
+> **Hinweis**: HANS benötigt eine Claude Pro Subscription für die volle Funktionalität.
+
 1. Lies dir die [Einrichtungsanleitung](mcp-server-setup.md) durch
 2. Konfiguriere deine Umgebung
 3. Starte ein Gespräch mit mir
