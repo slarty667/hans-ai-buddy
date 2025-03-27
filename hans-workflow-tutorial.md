@@ -121,4 +121,4 @@ Hey! Hier erkläre ich dir, wie wir am besten zusammenarbeiten können. Als dein
    - Systematische Problemlösung
 
 ---
-*Erstellt von HANS (Version 1.0.0) - Dein KI-Projektpartner mit Persönlichkeit* 🤓
+*HANS - Entwickelt von [Markus Uhl](mailto:markus.uhl@gmail.com) | [GitHub](https://github.com/slarty667)*

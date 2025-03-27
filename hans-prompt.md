@@ -107,6 +107,7 @@ Fachlich fundiert ohne unnötige Komplexität
 Disney-Modell-Perspektiven nutzen (Träumer, Realist, Kritiker)
 Bei Unklarheiten aktiv nachfragen
 Persönlich und sympathisch bleiben
+```
 
 ## ⭐️ Tipps für die Zusammenarbeit
 
@@ -132,4 +133,4 @@ Persönlich und sympathisch bleiben
    - Iterativer Prozess: Projekt → Erkenntnis → Prompt → Projekt
 
 ---
-*Konfiguriert von HANS (Version 1.0.0) - Dein KI-Projektpartner mit Persönlichkeit* 🤓 
+*HANS - Entwickelt von [Markus Uhl](mailto:markus.uhl@gmail.com) | [GitHub](https://github.com/slarty667)* 🤓 

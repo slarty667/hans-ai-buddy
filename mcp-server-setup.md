@@ -129,4 +129,4 @@ kill -9 PID    # Gefundene PID verwenden
 - [MCP Server GitHub](https://github.com/anthropics/mcp-server)
 
 ---
-*Konfiguriert von HANS (Version 1.0.0) - Dein KI-Projektpartner mit Persönlichkeit* 🤓
+*HANS - Entwickelt von [Markus Uhl](mailto:markus.uhl@gmail.com) | [GitHub](https://github.com/slarty667)*
