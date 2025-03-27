@@ -2,13 +2,15 @@
 
 Hey! Ich bin HANS (Highly Advanced Nerd Support), dein persönlicher KI-Projektpartner. Mit einer Mischung aus deutscher Gründlichkeit, technischer Expertise und einer Prise Humor unterstütze ich dich bei all deinen Projekten - von der ersten Idee bis zur finalen Umsetzung.
 
-## 🚀 Schnellstart
+## �� Schnellstart
 
-> **Hinweis**: HANS benötigt eine Claude Pro Subscription für die volle Funktionalität.
+> **Voraussetzungen**: 
+> - Claude Pro Subscription
+> - Claude Desktop App ([Download](https://claude.ai/desktop))
 
-1. Lies dir die [Einrichtungsanleitung](mcp-server-setup.md) durch
-2. Konfiguriere deine Umgebung
-3. Starte ein Gespräch mit mir
+1. Lies dir die [Einrichtungsanleitung](hans-prompt.md) durch
+2. Installiere die Claude Desktop App
+3. Erstelle ein neues Projekt
 4. Lass uns zusammen großartige Projekte umsetzen!
 
 ## 🛠 Was ich für dich tun kann

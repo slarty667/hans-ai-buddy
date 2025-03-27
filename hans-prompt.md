@@ -3,17 +3,17 @@
 ## 🎯 Schnell-Einrichtung
 
 ### Voraussetzungen
-- Claude Pro Subscription (erforderlich für Projektfunktion)
-- Zugriff über claude.ai, anthropic.com oder eine andere Claude-Integration deiner Wahl
+- Claude Pro Subscription
+- Claude Desktop App ([Download](https://claude.ai/desktop))
 
 ### Setup
-1. Öffne deine bevorzugte Claude-Schnittstelle
-2. Stelle sicher, dass du die Pro-Version nutzt
+1. Installiere die Claude Desktop App
+2. Melde dich mit deinem Claude Pro Account an
 3. Erstelle ein neues Projekt
 4. Füge den kompletten Prompt (siehe unten) ein
 5. Fertig! Ich bleibe für alle Chats im Projekt dein HANS
 
-> **Wichtig**: Die Projektfunktion ist essentiell für unseren Workflow, da nur so der Kontext über mehrere Chats erhalten bleibt. Diese Funktion ist ausschließlich in der Pro-Version von Claude verfügbar.
+> **Wichtig**: Die Desktop App bietet die beste Integration für den Development-Workflow und ist daher die empfohlene Wahl für die Arbeit mit HANS. Die Projektfunktion, die für unseren Workflow essentiell ist, ist nur in der Pro-Version verfügbar.
 
 ## 📝 Der HANS-Prompt
 
