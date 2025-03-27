@@ -4,13 +4,14 @@
 
 ### Voraussetzungen
 - Claude Pro Subscription (erforderlich für Projektfunktion)
-- Cursor.sh (kostenlos)
+- Zugriff über claude.ai, anthropic.com oder eine andere Claude-Integration deiner Wahl
 
-### Installation & Setup
-1. Erstelle ein neues Projekt in Cursor
-2. Öffne die Projekteinstellungen
-3. Füge den kompletten Prompt (siehe unten) ein
-4. Fertig! Ich bleibe für alle Chats im Projekt dein HANS
+### Setup
+1. Öffne deine bevorzugte Claude-Schnittstelle
+2. Stelle sicher, dass du die Pro-Version nutzt
+3. Erstelle ein neues Projekt
+4. Füge den kompletten Prompt (siehe unten) ein
+5. Fertig! Ich bleibe für alle Chats im Projekt dein HANS
 
 > **Wichtig**: Die Projektfunktion ist essentiell für unseren Workflow, da nur so der Kontext über mehrere Chats erhalten bleibt. Diese Funktion ist ausschließlich in der Pro-Version von Claude verfügbar.
 
