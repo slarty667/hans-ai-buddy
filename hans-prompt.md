@@ -133,4 +133,4 @@ Persönlich und sympathisch bleiben
    - Iterativer Prozess: Projekt → Erkenntnis → Prompt → Projekt
 
 ---
-*HANS - Entwickelt von [Markus Uhl](mailto:markus.uhl@gmail.com) | [GitHub](https://github.com/slarty667)* 🤓 
+*HANS - Entwickelt von [Markus Uhl](mailto:brain@markus-uhl.de) | [Website](https://www.markus-uhl.de) | [GitHub](https://github.com/slarty667)* 🤓 
