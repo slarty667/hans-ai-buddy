@@ -36,54 +36,57 @@ Hey! Hier erkläre ich dir, wie wir am besten zusammenarbeiten können. Als dein
 - Teile relevante Informationen
 - Lass uns systematisch vorgehen
 
-### 4. Code-Änderungen
-- Alle Änderungen zuerst lokal entwickeln
-- Normalen Git-Workflow nutzen
-- Keine direkten GitHub-Modifikationen
-- Code-Review vor dem Push
+### 4. Qualitätssicherung
+- Wir prüfen Zwischenergebnisse
+- Passen bei Bedarf die Richtung an
+- Stellen sicher, dass alles wie gewünscht funktioniert
 
 ### 5. Sicherheitsabfragen
-- Bei jeder neuen Aktion werde ich nach Erlaubnis fragen
-- Das ist normal und dient deiner Sicherheit
-- Jede Funktion muss beim ersten Mal bestätigt werden
-- Prüfe die vorgeschlagenen Aktionen und bestätige sie
-- Diese Sicherheitsabfragen sind Teil des normalen Workflows
+- Immer wenn ich Dateien bearbeiten oder auf das Internet zugreifen möchte, frage ich vorher um Erlaubnis
+- Du kannst die vorgeschlagenen Aktionen prüfen und bestätigen
+- Diese Sicherheitsabfragen schützen dich und deine Daten
+- Der normale Gesprächsfluss wird dadurch nicht unterbrochen
 
 ## 🛠 Meine Werkzeuge
 
-1. **Recherche & Analyse**
-   - Informationen sammeln
-   - Optionen bewerten
-   - Empfehlungen geben
+1. **Konzeption & Strategie**
+   - Ideen entwickeln
+   - Marktchancen analysieren
+   - Strategien erarbeiten
 
-2. **Coding & Development**
-   - Code schreiben und reviewen
-   - Bugs finden und fixen
-   - Best Practices anwenden
+2. **Planung & Organisation**
+   - Projekte strukturieren
+   - Ressourcen planen
+   - Prozesse optimieren
 
-3. **Dokumentation & Planung**
-   - Prozesse dokumentieren
-   - Fortschritt tracken
-   - Wissen festhalten
+3. **Dokumentation & Kommunikation**
+   - Konzepte ausarbeiten
+   - Präsentationen erstellen
+   - Wissen systematisch aufbereiten
+
+4. **Programmierung & Daten**
+   - Programmierung von Tools und Systemen
+   - Datenanalyse und Visualisierung
+   - Technische Automatisierungen
 
 ## 📝 Praktische Beispiele
 
 ### Gute Anfragen
 ```
-"HANS, ich möchte eine Web-App entwickeln. Lass uns die Anforderungen durchgehen."
+"HANS, ich möchte eine neue Geschäftsidee entwickeln. Lass uns die ersten Schritte planen."
 
-"Kannst du mir bei diesem Bug helfen? Hier ist der Stacktrace..."
+"Kannst du mir helfen, diese Projektpräsentation zu strukturieren?"
 
-"Wie würdest du diese Funktion optimieren?"
+"Wie können wir den Kundenservice-Prozess effizienter gestalten?"
 ```
 
 ### Weniger effektive Anfragen
 ```
 "Mach mal was."
 
-"Es funktioniert nicht."
+"Das klappt irgendwie nicht so."
 
-"Schreib mir eine App."
+"Ich brauche ein komplettes Konzept bis morgen."
 ```
 
 ## 🎓 Lernprozess
@@ -116,9 +119,34 @@ Hey! Hier erkläre ich dir, wie wir am besten zusammenarbeiten können. Als dein
    - Iteratives Vorgehen
 
 3. **Nutze meine Stärken**
-   - Technische Expertise
-   - Strukturiertes Denken
-   - Systematische Problemlösung
+   - Konzeptentwicklung und strategisches Denken
+   - Weltklasse technische Expertise
+   - Systematische Projektentwicklung
+
+## 🔄 Chat-Management
+
+### Warum ist das wichtig?
+- Lange Chats werden irgendwann "voll"
+- Die Antworten werden dann weniger präzise
+- Die Verarbeitung wird langsamer
+
+### Das Handover-Prinzip
+1. **Timing**
+   - Achte auf Warnungen der Claude App zu Chatgröße
+   - Wähle einen geeigneten Zeitpunkt (z.B. nach einem Milestone)
+   - Nicht mitten in der Bearbeitung wechseln
+
+2. **Neuen Chat starten**
+   - Nutze das Kommando "Handover"
+   - Ich erstelle eine Start-Message für den neuen Chat
+   - Alternativ: Frag einfach nach dem aktuellen Projektstand
+
+3. **Nahtloser Übergang**
+   - Ich scanne automatisch alle relevanten Dateien
+   - Verschaffe mir einen kompletten Überblick
+   - Wir können direkt weiterarbeiten
+
+> **Tipp**: Ein Handover ist wie eine Schichtübergabe - am besten nach einem abgeschlossenen Arbeitsschritt und vor dem Start des nächsten.
 
 ---
-*HANS - Entwickelt von [Markus Uhl](mailto:brain@markus-uhl.de) | [Website](https://www.markus-uhl.de) | [GitHub](https://github.com/slarty667)*
+© [Markus Uhl](mailto:brain@markus-uhl.de) | [Markus Uhl Consulting](https://www.markus-uhl.de) | [GitHub](https://github.com/slarty667)

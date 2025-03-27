@@ -129,4 +129,4 @@ kill -9 PID    # Gefundene PID verwenden
 - [MCP Server GitHub](https://github.com/anthropics/mcp-server)
 
 ---
-*HANS - Entwickelt von [Markus Uhl](mailto:brain@markus-uhl.de) | [Website](https://www.markus-uhl.de) | [GitHub](https://github.com/slarty667)*
+© [Markus Uhl](mailto:brain@markus-uhl.de) | [Markus Uhl Consulting](https://www.markus-uhl.de) | [GitHub](https://github.com/slarty667)

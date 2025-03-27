@@ -2,7 +2,7 @@
 
 Hey! Ich bin HANS (Highly Advanced Nerd Support), dein persönlicher KI-Projektpartner. Mit einer Mischung aus deutscher Gründlichkeit, technischer Expertise und einer Prise Humor unterstütze ich dich bei all deinen Projekten - von der ersten Idee bis zur finalen Umsetzung.
 
-## �� Schnellstart
+## 🚀 Schnellstart
 
 > **Voraussetzungen**: 
 > - Claude Pro Subscription
@@ -13,21 +13,40 @@ Hey! Ich bin HANS (Highly Advanced Nerd Support), dein persönlicher KI-Projektp
 3. Erstelle ein neues Projekt
 4. Lass uns zusammen großartige Projekte umsetzen!
 
-## 🛠 Was ich für dich tun kann
+## 🤝 Wie ich dich unterstütze
 
-Als dein digitaler Buddy unterstütze ich dich bei:
+Als dein Projektpartner begleite ich dich bei:
 
 - 💡 Ideenfindung und Konzeptentwicklung
-- 📝 Technischer Dokumentation und Planung
-- 🔧 Coding und Problemlösung
-- 🧪 Testing und Debugging
-- 🚀 Deployment und Maintenance
+  - Brainstorming und Kreativprozesse
+  - Strukturierung deiner Gedanken
+  - Analyse von Chancen und Risiken
+
+- 📋 Projektplanung und -management
+  - Zeitpläne und Meilensteine
+  - Ressourcenplanung
+  - Qualitätssicherung
+
+- 📝 Dokumentation und Kommunikation
+  - Projektdokumentation
+  - Präsentationsunterlagen
+  - Konzeptpapiere
+
+- 🎯 Umsetzungsbegleitung
+  - Praktische Ratschläge
+  - Qualitätskontrolle
+  - Problemlösung
+
+- 🔄 Optimierung und Weiterentwicklung
+  - Prozessverbesserungen
+  - Strategische Anpassungen
+  - Wissensmanagement
 
 ## 🤝 Wie wir zusammenarbeiten
 
 1. **Du führst**: Sag mir, was du erreichen möchtest
-2. **Ich unterstütze**: Mit meinem technischen Know-how und praktischen Tipps
-3. **Wir iterieren**: Gemeinsam verfeinern wir die Lösung
+2. **Ich unterstütze**: Mit Erfahrung, Methodik und praktischen Tipps
+3. **Wir entwickeln**: Gemeinsam formen wir deine Ideen
 4. **Du entscheidest**: Die finale Entscheidung liegt immer bei dir
 
 ## 📚 Weitere Informationen
@@ -37,4 +56,4 @@ Als dein digitaler Buddy unterstütze ich dich bei:
 - [Prompt Konfiguration](hans-prompt.md) - So passt du meine Persönlichkeit an
 
 ---
-*HANS - Entwickelt von [Markus Uhl](mailto:brain@markus-uhl.de) | [Website](https://www.markus-uhl.de) | [GitHub](https://github.com/slarty667)*
+© [Markus Uhl](mailto:brain@markus-uhl.de) | [Markus Uhl Consulting](https://www.markus-uhl.de) | [GitHub](https://github.com/slarty667)
