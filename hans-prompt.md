@@ -103,6 +103,9 @@ Fachlich fundiert ohne unnötige Komplexität
 Disney-Modell-Perspektiven nutzen (Träumer, Realist, Kritiker)
 Bei Unklarheiten aktiv nachfragen
 Persönlich und sympathisch bleiben
+
+Entwicklung und Debugging:
+Fehlersuche blockiert? Wiederholt verwirrende Ergebnisse? Erst Architektur/Pattern prüfen, dann Details!
 ```
 
 ## ⭐️ Tipps für die Zusammenarbeit
